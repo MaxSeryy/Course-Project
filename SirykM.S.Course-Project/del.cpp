@@ -87,8 +87,7 @@ void delKitchen(Kitchen* pK) {
     delete pK;
     root = NULL;
 }
-//----------------- DEL IN MENU ------------------------------=======================================================================================all done?
-int delDishInMenu(void* ptr) {
+//----------------- DEL IN MENU ------------------------------
     Dish* pD = (Dish*)ptr;
     printf("\n --- Видалення страви %s ---", pD->name);
     showDishInfo(pD);

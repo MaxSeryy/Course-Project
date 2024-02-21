@@ -1,5 +1,4 @@
 #include "includes.h"
-//знайти 3 найващі продукти обраної страви
 int findNewestProductInMenu(void* ptr) {
     if (!rootExist()) return 0;
     if (!dishExist()) return 0;
@@ -38,7 +37,6 @@ int findNewestProductInMenu(void* ptr) {
     return 0;
 }
 
-//знайти найдорожчу страву та найдешевшу
 int findExpensiveCheapDish(void* ptr) {
     if (!rootExist()) return 0;
     if (!dishExist()) return 0;

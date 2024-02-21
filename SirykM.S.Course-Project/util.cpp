@@ -2,7 +2,7 @@
 
 void pause() {
     cout << "\n Для продовження натисніть будь-яку клавішу...\n";
-    cin.ignore(); // замість getch()
+    cin.ignore();
 }
 int rootExist() {
     if (root == NULL) {
